@@ -1,0 +1,21 @@
+{
+  "name": "cli-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index --action list",
+    "start:dev": "nodemon index -a list"
+  },
+  "keywords": [],
+  "author": "Denys Melnychenko",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "commander": "^9.0.0",
+    "nanoid": "^3.2.0"
+  }
+}
